@@ -4,23 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
     <title>To-do</title>
 </head>
 
 <body>
-    <layout class="layout">
+    <main class="layout">
         <header class="layout__header">
             <h1 class="header__title">
-                Lista de tareas
+                TO-DO LIST 
             </h1>
         </header>
 
-        <main class="layout__main">
+        <section class="layout__main">
             <!-- Prompt para el usuario -->
-            <form class="main__form">
+            <!-- <form class="main__form">
                 <input type="text" name="agregar" id="work" class="form__add-work">
                 <input type="submit" name="add" id="addWork" class="add__work-btn">
-            </form>
+            </form> -->
 
             <span class="main__user-elements">
                 <p class="elements__text">
@@ -34,10 +36,18 @@
                 <p class="elements__text">
                     Texto 3
                 </p>
-
+                
+                <p class="elements__text">
+                    Texto 3
+                </p>
+                
             </span>
-        </main>
-    </layout>
+
+            <div class="main__btn">
+                <button class="btn__add">ADD WORK</button>
+            </div>
+        </section>
+    </main>
 
 
 </body>
