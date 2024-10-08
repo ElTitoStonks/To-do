@@ -4,8 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/icons/fontawesome-free-6.6.0-web/css/all.min.css">
+    <!-- <link rel="stylesheet" href="assets/icons/fontawesome-free-6.6.0-web/js/all.min.js"> -->
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js" defer></script>
     <title>To-do</title>
 </head>
 
@@ -13,34 +17,19 @@
     <main class="layout">
         <header class="layout__header">
             <h1 class="header__title">
-                TO-DO LIST 
+                TO-DO LIST
             </h1>
         </header>
 
         <section class="layout__main">
-            <!-- Prompt para el usuario -->
-            <!-- <form class="main__form">
-                <input type="text" name="agregar" id="work" class="form__add-work">
-                <input type="submit" name="add" id="addWork" class="add__work-btn">
-            </form> -->
-
             <span class="main__user-elements">
-                <p class="elements__text">
-                    Texto 1
-                </p>
+                <span class="user__elements--empty">
+                    <h2>Todavía no has añadido ninguna tarea <br>
+                        Añade una ahora </h2><button class="elements__empty-icon"><i class="fa-solid fa-plus plus__icon"></i></button>
+                </span>
+                <p class="elements__text--empty">
 
-                <p class="elements__text">
-                    Texto 2
                 </p>
-
-                <p class="elements__text">
-                    Texto 3
-                </p>
-                
-                <p class="elements__text">
-                    Texto 3
-                </p>
-                
             </span>
 
             <div class="main__btn">
