@@ -25,11 +25,22 @@
             <span class="main__user-elements">
                 <span class="user__elements--empty">
                     <h2>Todavía no has añadido ninguna tarea <br>
-                        Añade una ahora </h2><button class="elements__empty-icon"><i class="fa-solid fa-plus plus__icon"></i></button>
+                        Añade una ahora
+                    </h2>
+                    <button class="elements__empty-icon" id="addWork">
+                        <i class="fa-solid fa-plus plus__icon"></i>
+                    </button>
+                    <span class="elements__pop-up-hide">
+                        <h3 class="pop-up__title">Escribe tú tarea ahora</h3>
+                        <form class="pop-up__form">
+                            <input class="form__input" type="text" name="work" id="work" placeholder="Tarea...">
+                            <input class="form__btn" type="submit" value="Añadir tarea">
+                        </form>
+                    </span>
                 </span>
-                <p class="elements__text--empty">
+                <div class="elements__text" id="COF">
 
-                </p>
+                </div>
             </span>
 
             <div class="main__btn">
